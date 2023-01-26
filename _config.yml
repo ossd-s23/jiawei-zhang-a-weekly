@@ -50,14 +50,14 @@ footer-links:
 # It should be "/USER_NAME-weekly" in which USER_NAME is replaced by your actual
 # user name for GitHub.
 
-url: "https://ossd-s23.github.io/weekly"
+url: "https://ossd-s23.github.io/jiawei-zhang-a-weekly"
 
 # CUSTOMIZE
 # Replace this with the name of your own repository.
 # It should be "/USER_NAME-weekly" in which USER_NAME is replaced by your actual
 # user name for GitHub.
 
-baseurl: "/weekly"
+baseurl: "/jiawei-zhang-a-weekly"
 
 #
 # !! You don't need to change any of the configuration flags below !!
