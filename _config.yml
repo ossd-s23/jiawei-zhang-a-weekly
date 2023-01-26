@@ -5,10 +5,10 @@
 # CUSTOMIZE
 # Name of your site (displayed in the header)
 # This should be your name or nickname.
-name: Your Name
+name: Jiawei Zhang
 
 # CUSTOMIZE
-# Short bio or description aout you (displayed in the header)
+# Short bio or description about you (displayed in the header)
 description: CSCI-UA 480 Student, Spring 2023
 
 # CUSTOMIZE
@@ -32,12 +32,12 @@ excerpt_separator: <!--more-->
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: jiawei.zhang@nyu.edu
   facebook:
   flickr:
   github: ossd-s23
-  instagram:
-  linkedin:
+  instagram: george.zhang.arch
+  linkedin: https://www.linkedin.com/in/jiawei-zhang-165403238/
   pinterest:
   twitter:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
