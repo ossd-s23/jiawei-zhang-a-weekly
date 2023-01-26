@@ -1,36 +1,52 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang }}">
-
-  <!-- Head -->
+<html>
   <head>
-  {%- if page.redirect -%}
-    <meta http-equiv="refresh" content="3; url={{ site.baseurl }}/" />
-  {%- endif -%}
-  {% include head.html %}
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
-  <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+  <body>
+    <a href="#main" class="screen-reader-text">Skip to content</a>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" alt="{{ site.avatar_alt_text }}"/></a>
 
-    <!-- Header -->
-    {%- include header.html %}
+          <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <p class="site-description">{{ site.description }}</p>
+          </div>
 
-    <!-- Content -->
-    <div class="container mt-5">
+          <nav>
+            <a href="{{ site.baseurl }}/">Blog</a>
+            <a href="{{ site.baseurl }}/about">About</a>
+            <a href="{{ site.baseurl }}/contributions">Contributions</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
       {{ content }}
     </div>
 
-    <!-- Footer -->
-    {%- include footer.html %}
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          {% include svg-icons.html %}
+        </footer>
+      </div>
+    </div>
 
-    <!-- JavaScripts -->
-    {% include scripts/jquery.html %}
-    {% include scripts/bootstrap.html %}
-    {% include scripts/masonry.html %}
-    {% include scripts/misc.html %}
-    {% include scripts/badges.html %}
-    {% include scripts/mathjax.html %}
-    {% include scripts/analytics.html %}
-    {% include scripts/progressBar.html %}
   </body>
 </html>
