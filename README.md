@@ -1,2 +1,1 @@
-This is a simple template for the class blog. 
-
+The website is [Here](https://ossd-s23.github.io/jiawei-zhang-a-weekly/).
