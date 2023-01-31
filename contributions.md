@@ -22,6 +22,6 @@ Replace the first row with your own contribution.
 
 | Date #       | Contribution (Link)  | Type  | Description |
 |---|:---|:---|:---|
-| Feb 3   | link to my contribution    | course website    |   I fixed a broken link.    |
+| Jan 30 | https://github.com/ossd-s23/seoeunHong-weekly/issues/1    | Other Student    |   issue a problem in formatting    |
 |     |     |     |      |
 |     |     |     |      |
