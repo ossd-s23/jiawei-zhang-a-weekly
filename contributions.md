@@ -22,6 +22,5 @@ Replace the first row with your own contribution.
 
 | Date #       | Contribution (Link)  | Type  | Description |
 |---|:---|:---|:---|
-| Jan 30 | https://github.com/ossd-s23/seoeunHong-weekly/issues/1    | Other Student    |   issue a problem in formatting    |
 |     |     |     |      |
 |     |     |     |      |
