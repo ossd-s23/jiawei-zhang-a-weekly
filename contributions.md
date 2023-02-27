@@ -21,6 +21,6 @@ Replace the first row with your own contribution.
 
 
 | Date #       | Contribution (Link)  | Type  | Description |
-|---|:---|:---|:---|
-|     |     |     |      |
+|20230227|https://www.openstreetmap.org/note/3141268#map=19/22.60167/113.99545&layers=N|OpenStreetMap|Review others issue|
+|20230227|https://www.openstreetmap.org/note/2542714#map=19/40.73191/-73.97999&layers=N|OpenStreetMap|Review others issue|
 |     |     |     |      |
