@@ -28,5 +28,7 @@ Replace the first row with your own contribution.
 | 20230322 | [https://github.com/scikit-learn/scikit-learn/issues/25932#issuecomment-1482005227 ](https://github.com/scikit-learn/scikit-learn/issues/25932#issuecomment-1482005227)                           | Sklearn | Tried to trigger the error and gave my explanation |
 | 20230321 | [https://github.com/scipy/scipy/issues/18186 ](https://github.com/scipy/scipy/issues/18186 )                           | Scipy | Post an issue based on my experience of using SciPy and propose a new Function  |
 | 20230322 | [https://github.com/scikit-learn/scikit-learn/issues/25889 ](https://github.com/scikit-learn/scikit-learn/issues/25889 )                           | Sklearn | Take the issue Add verbose_feature_names_out parameter and workign on it right now|
+| 20230327 | [https://github.com/scikit-learn/scikit-learn/pull/25991 ](https://github.com/scikit-learn/scikit-learn/pull/25991 )                           | Sklearn Enhancement PR| Finish verbose_feature_names_out parameter and added tests and passed all the official tests case, total of 200 lines of codes|
+| 20230329 | [https://github.com/scikit-learn/scikit-learn/pull/26021 ](https://github.com/scikit-learn/scikit-learn/pull/26021 )                           | Sklearn Enhancement PR| Enhanced the algorithm, bypassing uncessary initialization like Kmeans|
 |          |                                                                                |               |                                             |
 
