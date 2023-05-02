@@ -28,7 +28,7 @@ Replace the first row with your own contribution.
 | 20230321 | [ENH: Add scipy.stats.multivariate_laplace #18186](https://github.com/scipy/scipy/issues/18186 )                           | Scipy | Post an issue and proposed a new function  |
 | 202304 | [call __finalize__ in DataFrame.eval with engine=numexpr #52888](https://github.com/pandas-dev/pandas/pull/52888)  | Under Review
 | 202304 | [Metadata propagation both in DataFrame.corrwith and Dataframe.sum #52923](https://github.com/pandas-dev/pandas/pull/52923)                           | Pandas Maintain and Bug Fix| Merged|
-| 202304 | [Fix the metadata propagation in Dataframe.std #52924](https://github.com/pandas-dev/pandas/pull/52924)                           | Approved|
+| 202304 | [Fix the metadata propagation in Dataframe.std #52924](https://github.com/pandas-dev/pandas/pull/52924)                           | Merged|
 | 202304 | [Metadata in DataFrame.mean #52925](https://github.com/pandas-dev/pandas/pull/52925)                           | Under Review|
 | 202304 | [Fixed metadata propagation in Dataframe.add #52922](https://github.com/pandas-dev/pandas/pull/52922)                           | Under Review|
 |          |                                                                                |               |                                             |
